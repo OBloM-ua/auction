@@ -1,16 +1,16 @@
 package com.baidiuk.entities;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
+import java.io.Serializable;
 
 @Entity
 @Table(name = "users")
-public class User {
+
+public class User implements Serializable {
 
     @Id
-    @Column(name = "id", nullable = false, unique = true)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "Id", insertable = false, nullable = false, unique = true, updatable = false)
     private int id;
 
     @Column(name = "email", nullable = false)
