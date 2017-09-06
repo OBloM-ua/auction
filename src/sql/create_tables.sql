@@ -14,7 +14,7 @@ DROP TABLE IF EXISTS items;
 CREATE TABLE IF NOT EXISTS items (
   id      INT PRIMARY KEY AUTO_INCREMENT,
   name    VARCHAR(128) NOT NULL,
-  preis   FLOAT        NOT NULL,
+  price   FLOAT        NOT NULL,
   user_id INT          NOT NULL,
   FOREIGN KEY (user_id) REFERENCES users (id)
 );
