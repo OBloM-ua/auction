@@ -1,6 +1,5 @@
 package com.baidiuk.entities;
 
-
 import javax.persistence.*;
 
 @Entity
@@ -8,24 +7,24 @@ import javax.persistence.*;
 public class Item {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column (name = "id", insertable = false, nullable = false, unique = true, updatable = false)
+    @Column(name = "id", insertable = false, nullable = false, unique = true, updatable = false)
     private int id;
-
 
     @Column(name = "name", nullable = false)
     private String name;
 
-
     @Column(name = "price", nullable = false)
-    private String price;
+    private double price;
 
-    @OneToMany
-    @Column(name = "user_id")
+    @ManyToOne
+    @JoinColumn(name = "user_id")
     private User user;
+
     public Item() {
 
     }
-    public Item(String name, String price, User user) {
+
+    public Item(String name, double price, User user) {
         this.name = name;
         this.price = price;
         this.user = user;
@@ -72,11 +71,11 @@ public class Item {
         this.name = name;
     }
 
-    public String getPrice() {
+    public double getPrice() {
         return price;
     }
 
-    public void setPrice(String price) {
+    public void setPrice(double price) {
         this.price = price;
     }
 

@@ -12,5 +12,6 @@
         <!-- DB schema will be updated if needed -->
         <!-- <property name="hbm2ddl.auto">update</property> -->
         <mapping class="com.baidiuk.entities.User" />
+        <mapping class="com.baidiuk.entities.Item" />
     </session-factory>
 </hibernate-configuration>

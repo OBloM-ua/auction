@@ -7,9 +7,8 @@ import org.hibernate.Session;
 import java.util.List;
 
 public class UserDao {
+
     private Session session = HibernateUtil.getSessionFactory().openSession();
-
-
 
     public User get(int id) {
         return session.find(User.class, id);
@@ -37,9 +36,9 @@ public class UserDao {
             updateOrInsert(u);
     }
 
-    public void delete(User user) { //6
+    public void delete(User user) {
         session.beginTransaction();
-        session.delete(user);//0
+        session.delete(user);
         session.getTransaction().commit();
     }
 
