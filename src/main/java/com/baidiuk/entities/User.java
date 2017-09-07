@@ -1,7 +1,9 @@
 package com.baidiuk.entities;
 
 import javax.persistence.*;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 @Entity
 @Table(name = "users")
@@ -16,6 +18,9 @@ public class User {
 
     @Column(name = "password", nullable = false)
     private String password;
+
+    @OneToMany(mappedBy = "user")
+    private Set<Item> itemsSet = new HashSet<Item>(0);
 
     public User() {
     }
@@ -73,6 +78,13 @@ public class User {
         this.password = password;
     }
 
+    public Set<Item> getItemsSet() {
+        return itemsSet;
+    }
+
+    public void setItemsSet(Set<Item> itemsSet) {
+        this.itemsSet = itemsSet;
+    }
 }
 
 
