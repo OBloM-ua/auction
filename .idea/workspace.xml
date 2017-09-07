@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="b5853840-7055-4e9b-ad74-cd2fabfb4cb1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/baidiuk/daos/ItemDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/baidiuk/daos/ItemDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/baidiuk/entities/Item.java" afterPath="$PROJECT_DIR$/src/main/java/com/baidiuk/entities/Item.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/baidiuk/entities/User.java" afterPath="$PROJECT_DIR$/src/main/java/com/baidiuk/entities/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/baidiuk/daos/ItemDaoTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/baidiuk/daos/ItemDaoTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/baidiuk/daos/UserDaoTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/baidiuk/daos/UserDaoTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,45 +36,86 @@
         <item name="@localhost" type="e3449647:DbNodeDescriptor" />
         <item name="auction" type="e3449647:DbNodeDescriptor" />
       </path>
-      <path>
-        <item name="" type="eadb38e5:DatabaseStructure$Root" />
-        <item name="@localhost" type="e3449647:DbNodeDescriptor" />
-        <item name="auction" type="e3449647:DbNodeDescriptor" />
-        <item name="users" type="e3449647:DbNodeDescriptor" />
-      </path>
     </expand>
     <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Item.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/baidiuk/entities/Item.java">
+      <file leaf-file-name="ItemDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/baidiuk/daos/ItemDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="20" column="21" lean-forward="false" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="21" />
+            <state relative-caret-position="195">
+              <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
               <folding>
-                <element signature="e#1627#1628#0" expanded="true" />
-                <element signature="e#1654#1655#0" expanded="true" />
-                <element signature="e#1692#1693#0" expanded="true" />
-                <element signature="e#1724#1725#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#376#377#0" expanded="true" />
+                <element signature="e#438#439#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Item.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/baidiuk/entities/Item.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-70">
+              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <folding>
+                <element signature="e#1642#1643#0" expanded="true" />
+                <element signature="e#1669#1670#0" expanded="true" />
+                <element signature="e#1707#1708#0" expanded="true" />
+                <element signature="e#1739#1740#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/baidiuk/entities/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+            <state relative-caret-position="375">
+              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#594#600#0" expanded="true" />
-                <element signature="e#1701#1702#0" expanded="true" />
-                <element signature="e#1732#1733#0" expanded="true" />
-                <element signature="e#1783#1784#0" expanded="true" />
-                <element signature="e#1823#1824#0" expanded="true" />
+                <element signature="e#577#583#0" expanded="true" />
+                <element signature="e#1696#1697#0" expanded="true" />
+                <element signature="e#1727#1728#0" expanded="true" />
+                <element signature="e#1775#1776#0" expanded="true" />
+                <element signature="e#1811#1812#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ItemDaoTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/baidiuk/daos/ItemDaoTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="637">
+              <caret line="60" column="22" lean-forward="false" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserDaoTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/baidiuk/daos/UserDaoTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-227">
+              <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="items" pinned="false" current-in-tab="false">
+        <entry file="das://table:/c6b68a0/45788a1f-ca2d-4b7a-9a20-a6f0a9017bfc/auction.items">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
@@ -118,16 +163,16 @@
         <option value="$PROJECT_DIR$/src/main/java/com/baidiuk/daos/Dao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/baidiuk/entities/HibernateUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/baidiuk/daos/UserDaoTest.java" />
         <option value="$PROJECT_DIR$/src/sql/create_tables.sql" />
         <option value="$PROJECT_DIR$/documentation/todo.txt" />
         <option value="$PROJECT_DIR$/src/main/java/com/baidiuk/daos/UserDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/baidiuk/entities/ItemAAA.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/baidiuk/daos/ItemDao.java" />
         <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/baidiuk/daos/ItemDaoTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/baidiuk/entities/Item.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/baidiuk/entities/User.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/baidiuk/daos/UserDaoTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/baidiuk/daos/ItemDao.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/baidiuk/daos/ItemDaoTest.java" />
       </list>
     </option>
   </component>
@@ -345,6 +390,32 @@
         <option name="AntTarget" enabled="true" antfile="file://$PROJECT_DIR$/ant_scripts.xml" target="recreateTables_MySQL" />
       </method>
     </configuration>
+    <configuration name="UserDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.baidiuk.daos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="auction" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.baidiuk.daos" />
+      <option name="MAIN_CLASS_NAME" value="com.baidiuk.daos.UserDaoTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <dir value="$PROJECT_DIR$/src/test" />
+      <patterns />
+    </configuration>
     <configuration name="UserDaoTest.create" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -408,31 +479,6 @@
       <option name="PACKAGE_NAME" value="com.baidiuk.daos" />
       <option name="MAIN_CLASS_NAME" value="com.baidiuk.daos.UserDaoTest" />
       <option name="METHOD_NAME" value="get" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="UserDaoTest.update" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.baidiuk.daos.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="auction" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.baidiuk.daos" />
-      <option name="MAIN_CLASS_NAME" value="com.baidiuk.daos.UserDaoTest" />
-      <option name="METHOD_NAME" value="update" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -527,18 +573,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.UserDaoTest.create" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.UserDaoTest.update" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.UserDaoTest.delete" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.All Test" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.UserDaoTest.get" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.UserDaoTest.delete" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.All Test" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.UserDaoTest.get" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.UserDaoTest" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="JUnit.All Test" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.UserDaoTest.create" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.UserDaoTest.delete" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.UserDaoTest.get" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.UserDaoTest.update" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.UserDaoTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.UserDaoTest.create" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.UserDaoTest.delete" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.UserDaoTest.get" />
       </list>
     </recent_temporary>
   </component>
@@ -561,7 +607,7 @@
       <workItem from="1503146029982" duration="4329000" />
       <workItem from="1503254122105" duration="92000" />
       <workItem from="1504722398295" duration="11161000" />
-      <workItem from="1504773588136" duration="2890000" />
+      <workItem from="1504773588136" duration="6413000" />
     </task>
     <task id="LOCAL-00001" summary="add ant script add jdbc driver for mysql">
       <created>1503149825212</created>
@@ -619,43 +665,50 @@
       <option name="project" value="LOCAL" />
       <updated>1504811277449</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="one to many fixing">
+      <created>1504811655834</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1504811655834</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_Test - 2017.09.07 at 20h 55m 59s.xml">
+    <history-entry file="All_Test - 2017.09.07 at 22h 03m 42s.xml">
       <configuration name="All Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_Test - 2017.09.07 at 21h 01m 08s.xml">
+    <history-entry file="All_Test - 2017.09.07 at 22h 04m 35s.xml">
       <configuration name="All Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_Test - 2017.09.07 at 21h 05m 22s.xml">
+    <history-entry file="All_Test - 2017.09.07 at 22h 05m 59s.xml">
       <configuration name="All Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_Test - 2017.09.07 at 21h 06m 01s.xml">
+    <history-entry file="All_Test - 2017.09.07 at 22h 06m 22s.xml">
       <configuration name="All Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_Test - 2017.09.07 at 21h 09m 26s.xml">
+    <history-entry file="All_Test - 2017.09.07 at 22h 09m 19s.xml">
       <configuration name="All Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_Test - 2017.09.07 at 21h 09m 37s.xml">
+    <history-entry file="All_Test - 2017.09.07 at 22h 11m 05s.xml">
       <configuration name="All Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_Test - 2017.09.07 at 21h 09m 58s.xml">
+    <history-entry file="All_Test - 2017.09.07 at 22h 14m 29s.xml">
       <configuration name="All Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_Test - 2017.09.07 at 21h 10m 31s.xml">
+    <history-entry file="All_Test - 2017.09.07 at 22h 16m 31s.xml">
       <configuration name="All Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_Test - 2017.09.07 at 21h 11m 26s.xml">
+    <history-entry file="All_Test - 2017.09.07 at 22h 16m 53s.xml">
       <configuration name="All Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_Test - 2017.09.07 at 21h 14m 01s.xml">
+    <history-entry file="All_Test - 2017.09.07 at 22h 17m 14s.xml">
       <configuration name="All Test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21573000" />
+    <option name="totallyTimeSpent" value="25096000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -708,7 +761,8 @@
     <MESSAGE value="add entity item" />
     <MESSAGE value="add todo file" />
     <MESSAGE value="Annotation fixing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Annotation fixing" />
+    <MESSAGE value="one to many fixing" />
+    <option name="LAST_COMMIT_MESSAGE" value="one to many fixing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -733,12 +787,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#291#292#0" expanded="true" />
-            <element signature="e#342#343#0" expanded="true" />
-            <element signature="e#370#371#0" expanded="true" />
-            <element signature="e#432#433#0" expanded="true" />
-            <element signature="e#1123#1124#0" expanded="true" />
-            <element signature="e#1155#1156#0" expanded="true" />
+            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#438#439#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -763,11 +813,11 @@
           <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#594#600#0" expanded="true" />
-            <element signature="e#1701#1702#0" expanded="true" />
-            <element signature="e#1732#1733#0" expanded="true" />
-            <element signature="e#1783#1784#0" expanded="true" />
-            <element signature="e#1823#1824#0" expanded="true" />
+            <element signature="e#577#583#0" expanded="true" />
+            <element signature="e#1696#1697#0" expanded="true" />
+            <element signature="e#1727#1728#0" expanded="true" />
+            <element signature="e#1775#1776#0" expanded="true" />
+            <element signature="e#1811#1812#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -777,10 +827,10 @@
         <state relative-caret-position="210">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
-            <element signature="e#1627#1628#0" expanded="true" />
-            <element signature="e#1654#1655#0" expanded="true" />
-            <element signature="e#1692#1693#0" expanded="true" />
-            <element signature="e#1724#1725#0" expanded="true" />
+            <element signature="e#1642#1643#0" expanded="true" />
+            <element signature="e#1669#1670#0" expanded="true" />
+            <element signature="e#1707#1708#0" expanded="true" />
+            <element signature="e#1739#1740#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -989,57 +1039,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://table:/c6b68a0/45788a1f-ca2d-4b7a-9a20-a6f0a9017bfc/auction.items">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://table:/c6b68a0/45788a1f-ca2d-4b7a-9a20-a6f0a9017bfc/auction.users">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sql/create_tables.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="7" lean-forward="false" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="49" lean-forward="false" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/baidiuk/daos/ItemDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#291#292#0" expanded="true" />
-            <element signature="e#342#343#0" expanded="true" />
-            <element signature="e#370#371#0" expanded="true" />
-            <element signature="e#432#433#0" expanded="true" />
-            <element signature="e#1123#1124#0" expanded="true" />
-            <element signature="e#1155#1156#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/baidiuk/daos/ItemDaoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="38" column="5" lean-forward="false" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1065,14 +1068,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/baidiuk/daos/UserDaoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://Persistence/JavaeeElement:/c6b68a0/hibernate.cfg.xml/auction/hibernate/Hibernate/PersistenceModel">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -1094,30 +1089,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/baidiuk/entities/Item.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/baidiuk/entities/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="20" column="21" lean-forward="false" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="21" />
+        <state relative-caret-position="375">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding>
-            <element signature="e#1627#1628#0" expanded="true" />
-            <element signature="e#1654#1655#0" expanded="true" />
-            <element signature="e#1692#1693#0" expanded="true" />
-            <element signature="e#1724#1725#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#577#583#0" expanded="true" />
+            <element signature="e#1696#1697#0" expanded="true" />
+            <element signature="e#1727#1728#0" expanded="true" />
+            <element signature="e#1775#1776#0" expanded="true" />
+            <element signature="e#1811#1812#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/baidiuk/entities/User.java">
+    <entry file="das://table:/c6b68a0/45788a1f-ca2d-4b7a-9a20-a6f0a9017bfc/auction.items">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+        <state relative-caret-position="210">
+          <caret line="14" column="49" lean-forward="false" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sql/create_tables.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="7" lean-forward="false" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/baidiuk/daos/UserDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-227">
+          <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#594#600#0" expanded="true" />
-            <element signature="e#1701#1702#0" expanded="true" />
-            <element signature="e#1732#1733#0" expanded="true" />
-            <element signature="e#1783#1784#0" expanded="true" />
-            <element signature="e#1823#1824#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="543" column="6" lean-forward="false" selection-start-line="543" selection-start-column="6" selection-end-line="543" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/baidiuk/daos/ItemDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#438#439#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/baidiuk/entities/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-70">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="e#1642#1643#0" expanded="true" />
+            <element signature="e#1669#1670#0" expanded="true" />
+            <element signature="e#1707#1708#0" expanded="true" />
+            <element signature="e#1739#1740#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/baidiuk/daos/ItemDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="637">
+          <caret line="60" column="22" lean-forward="false" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

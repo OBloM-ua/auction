@@ -14,7 +14,7 @@ public class ItemDao {
         return session.find(Item.class, id);
     }
 
-    public List getAll() {
+    public List<Item> getAll() {
         return session.createQuery("from Item").list();
     }
 

@@ -20,8 +20,8 @@ public class Item {
     @JoinColumn(name = "user_id")
     private User user;
 
+    @Deprecated
     public Item() {
-
     }
 
     public Item(String name, double price, User user) {

@@ -1,9 +1,8 @@
 package com.baidiuk.entities;
 
 import javax.persistence.*;
-import java.util.HashSet;
+import java.util.ArrayList;
 import java.util.List;
-import java.util.Set;
 
 @Entity
 @Table(name = "users")
@@ -20,10 +19,10 @@ public class User {
     private String password;
 
     @OneToMany(mappedBy = "user")
-    private Set<Item> itemsSet = new HashSet<Item>(0);
+    private List<Item> itemList = new ArrayList<Item>(0);
 
-    public User() {
-    }
+    @Deprecated
+    public User() {}
 
     public User(String email, String pasword) {
         this.email = email;
@@ -78,12 +77,12 @@ public class User {
         this.password = password;
     }
 
-    public Set<Item> getItemsSet() {
-        return itemsSet;
+    public List<Item> getItemList() {
+        return itemList;
     }
 
-    public void setItemsSet(Set<Item> itemsSet) {
-        this.itemsSet = itemsSet;
+    public void setItemList(List<Item> list) {
+        this.itemList = list;
     }
 }
 
