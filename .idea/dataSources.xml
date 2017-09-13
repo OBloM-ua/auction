@@ -16,6 +16,7 @@
       </driver-properties>
     </data-source>
     <data-source source="LOCAL" name="hibernate.cfg.xml/Hibernate" uuid="5dffe599-8b13-424c-8fd1-305af9e79ad0">
+      <synchronize>true</synchronize>
       <imported>true</imported>
       <configured-by-url>true</configured-by-url>
       <remarks>$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml</remarks>
