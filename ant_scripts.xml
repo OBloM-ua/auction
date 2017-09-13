@@ -1,5 +1,5 @@
 <project name="auction" basedir=".">
-    <property name="sql.driver" value="org.gjt.mm.mysql.Driver"/>
+    <property name="sql.driver" value="com.mysql.jdbc.Driver"/>
     <property name="sql.url" value="jdbc:mysql://localhost:3306/"/>
     <property name="sql.user" value="root"/>
     <property name="sql.pass" value="dai"/>
