@@ -19,10 +19,10 @@ public class User {
     private String password;
 
     @OneToMany(mappedBy = "user")
-    private List<Item> itemList = new ArrayList<Item>(0);
+    private List<Item> itemList = new ArrayList<>(0);
 
     @Deprecated
-    public User() {}
+    public User() { }
 
     public User(String email, String pasword) {
         this.email = email;

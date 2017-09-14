@@ -12,7 +12,7 @@ import static org.junit.Assert.*;
 public class ItemDaoTest {
     private ItemDao itemDao = new ItemDao();
     private UserDao userDao = new UserDao();
-    User oleh;
+    private User user;
     private Item item;
 
 
@@ -20,9 +20,9 @@ public class ItemDaoTest {
     public void setUp() throws Exception {
         itemDao.deleteAll();
         userDao.deleteAll();
-        oleh = new User("oleh@gmail.com", "5423434");
-        userDao.updateOrInsert(oleh);
-        item = new Item("Ski", 55.9, oleh);
+        user = new User("user@gmail.com", "5423434");
+        userDao.updateOrInsert(user);
+        item = new Item("Ski", 55.9, user);
         itemDao.updateOrInsert(item);
     }
 
@@ -35,7 +35,7 @@ public class ItemDaoTest {
 
     @Test
     public void getAll() throws Exception {
-        Item item2 = new Item("Ski22", 55.9, oleh);
+        Item item2 = new Item("Ski22", 55.9, user);
         itemDao.updateOrInsert(item2);
         assertEquals(2, itemDao.getAll().size());
     }
@@ -54,16 +54,19 @@ public class ItemDaoTest {
 
     @Test
     public void deleteAll() throws Exception {
-        Item item2 = new Item("Ski22", 55.9, oleh);
-        Item item3 = new Item("Ski22", 55.9, oleh);
+        Item item2 = new Item("Ski22", 55.9, user);
+        Item item3 = new Item("Ski22", 55.9, user);
         itemDao.updateOrInsert(item2);
         itemDao.updateOrInsert(item3);
         assertEquals(3, itemDao.getAll().size());
 
         itemDao.deleteAll();
         assertEquals(0, itemDao.getAll().size());
-
-
     }
-
+//    @Test
+//    public void cascade() throws Exception {
+//        assertEquals(1,itemDao.getAll().size());
+//        userDao.delete(user);
+//        assertEquals(0,itemDao.getAll().size());
+//    }
 }

@@ -1,6 +1,6 @@
 package com.baidiuk.daos;
 
-import com.baidiuk.entities.HibernateUtil;
+import com.baidiuk.utils.HibernateUtil;
 import com.baidiuk.entities.Item;
 import org.hibernate.Session;
 

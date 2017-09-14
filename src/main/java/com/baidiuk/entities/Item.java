@@ -21,8 +21,7 @@ public class Item {
     private User user;
 
     @Deprecated
-    public Item() {
-    }
+    public Item() { }
 
     public Item(String name, double price, User user) {
         this.name = name;
@@ -88,8 +87,3 @@ public class Item {
     }
 
 }
-//    id      INT PRIMARY KEY AUTO_INCREMENT,
-//        name    VARCHAR(128) NOT NULL,
-//        preis   FLOAT        NOT NULL,
-//        user_id INT          NOT NULL,
-//        FOREIGN KEY (user_id) REFERENCES users (id)
