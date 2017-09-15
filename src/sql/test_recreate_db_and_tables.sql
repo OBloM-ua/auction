@@ -1,0 +1,20 @@
+DROP DATABASE IF EXISTS test_auction;
+CREATE DATABASE test_auction;
+USE test_auction;
+
+DROP TABLE IF EXISTS users;
+CREATE TABLE IF NOT EXISTS users (
+  id       INT PRIMARY KEY AUTO_INCREMENT,
+  email    VARCHAR(128) NOT NULL,
+  password VARCHAR(128) NOT NULL
+);
+
+
+DROP TABLE IF EXISTS items;
+CREATE TABLE IF NOT EXISTS items (
+  id      INT PRIMARY KEY AUTO_INCREMENT,
+  name    VARCHAR(128) NOT NULL,
+  price   DOUBLE       NOT NULL,
+  user_id INT          NOT NULL,
+  FOREIGN KEY (user_id) REFERENCES users (id)
+);

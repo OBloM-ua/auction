@@ -10,7 +10,17 @@
                 <pathelement location="lib/mysql-connector-java-5.1.6.jar"/>
             </classpath>
             use auction;
-            <transaction src="src/sql/create_tables.sql"/>
+            <transaction src="src/sql/recreate_db_and_tables.sql"/>
+        </sql>
+    </target>
+
+ <target name="recreateTables_MySQL_test">
+        <sql driver="${sql.driver}" url="${sql.url}" userid="${sql.user}" password="${sql.pass}" >
+            <classpath>
+                <pathelement location="lib/mysql-connector-java-5.1.6.jar"/>
+            </classpath>
+            use test_auction;
+            <transaction src="src/sql/test_recreate_db_and_tables.sql"/>
         </sql>
     </target>
 
